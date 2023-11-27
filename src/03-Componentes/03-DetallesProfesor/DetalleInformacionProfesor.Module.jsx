@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import { useSelector } from 'react-redux'
 const DetalleInformacionProfesorModule = () => {
     let { proyectosInvestigacion, publicaciones, docencia, extension } = useSelector(state => state.profesorSeleccionado)
